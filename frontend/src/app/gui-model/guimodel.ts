@@ -156,7 +156,7 @@ export class GuiModel {
                             "name": "MVP",
                             "newRow": true,
                             "width": 2
-                        },                        
+                        },
                         {
                             "id": "description",
                             "type": "text",
@@ -206,7 +206,7 @@ export class GuiModel {
                             "name": "MVP",
                             "newRow": true,
                             "width": 2
-                        },      
+                        },
                         {
                             "id": "description",
                             "type": "text",
@@ -258,7 +258,7 @@ export class GuiModel {
                             "value": "Name, Vorname",
                             "required": true,
                             "width": 2
-                        },      
+                        },
                         {
                             "id": "description",
                             "type": "text",
