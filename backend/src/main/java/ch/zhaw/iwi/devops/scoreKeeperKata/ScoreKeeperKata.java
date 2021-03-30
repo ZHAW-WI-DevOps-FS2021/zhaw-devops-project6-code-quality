@@ -32,4 +32,8 @@ public class ScoreKeeperKata {
         return String.format("%03d:%03d", scoreA % 1000, scoreB % 1000);
     }
 
+    public String toString(){
+        return getScore();
+    }
+
 }

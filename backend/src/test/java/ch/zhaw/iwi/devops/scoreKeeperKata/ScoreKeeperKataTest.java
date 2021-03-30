@@ -3,6 +3,7 @@ package ch.zhaw.iwi.devops.scoreKeeperKata;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Ignore;
 
 public class ScoreKeeperKataTest {
     private ScoreKeeperKata sck;
@@ -41,7 +42,7 @@ public class ScoreKeeperKataTest {
         sck.scoreTeamB2();
         Assert.assertEquals("000:002", sck.getScore());
     }
-
+        
     @Test
     public void testScoreTeamB3(){
         sck.scoreTeamB3();
@@ -79,5 +80,6 @@ public class ScoreKeeperKataTest {
         }        
         Assert.assertEquals("000:000", sck.getScore());
     }
+  
     
 }
