@@ -48,6 +48,12 @@ public class ScoreKeeperKataTest {
         sck.scoreTeamB3();
         Assert.assertEquals("000:003", sck.getScore());
     }
+        
+    @Test
+    public void testScoreTeamB4(){
+        sck.scoreTeamB4();
+        Assert.assertEquals("000:004", sck.getScore());
+    }
 
     @Test
     public void testScoreTeamB3Twice(){

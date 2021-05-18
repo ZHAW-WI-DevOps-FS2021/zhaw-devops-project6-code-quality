@@ -28,6 +28,10 @@ public class ScoreKeeperKata {
         scoreB += 3;
     }
 
+    public void scoreTeamB4(){
+        scoreB += 4;
+    }
+
     public String getScore() throws NumberFormatException{
         return String.format("%03d:%03d", scoreA % 1000, scoreB % 1000);
     }
