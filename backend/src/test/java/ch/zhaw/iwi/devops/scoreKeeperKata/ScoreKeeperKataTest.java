@@ -56,6 +56,15 @@ public class ScoreKeeperKataTest {
     }
 
     @Test
+    public void testScoreTeamB4ThreeTimesAndScoreTeamAOnce(){
+        sck.scoreTeamB4();
+        sck.scoreTeamB4();
+        sck.scoreTeamB4();
+        sck.scoreTeamA();
+        Assert.assertEquals("001:012", sck.getScore());
+    }
+
+    @Test
     public void testScoreTeamB3Twice(){
         sck.scoreTeamB3();
         sck.scoreTeamB3();
